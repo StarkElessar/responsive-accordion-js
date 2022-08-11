@@ -15,7 +15,7 @@
 ### или
 
 ```html
-<div class="accordion" data-auto-closing="false">
+<div class="accordion" data-auto-closing="false"></div>
 ```
 
 ### 2. Установка по умолчанию открытой вкладки
