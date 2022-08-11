@@ -33,3 +33,19 @@
 ```
 
 Установить цвета через ```data``` атрибут можно **только** для родителя вкладки. Для этого используй ```data``` атрибут ```data-color-back``` и ```data-color-border``` в значения атрибутов помести цвет, например ```data-color-back="#fff7f0"```.
+
+### 4. Базовая HTML структура
+
+```html
+<div class="accordion" data-auto-closing="true">
+  <article class="accordion__item" data-open data-color-back="#fff7f0" data-color-border="#ffd6b3">
+    <div class="accordion__header">
+      <h3 class="accordion__title">Помести сюда свой заголовок</h3>
+      <div class="accordion__icon hide">Помести сюда иконку в формате svg</div>
+    </div>
+    <div class="accordion__content">
+      <p class="accordion__content-text">Помести сюда своё описание</p>
+    </div>
+  </article>
+</div>
+```
